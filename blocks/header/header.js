@@ -619,7 +619,7 @@ export default async function decorate(block) {
     try {
       const iconEl = document.querySelector('header .search.search-icon .icon');
       if (iconEl && window.hlx && window.hlx.codeBasePath) {
-        const iconUrl = `${window.hlx.codeBasePath}/icons/search.svg`;
+        const iconUrl = `${window.hlx.codeBasePath}/icons/video_play.svg`;
         iconEl.style.webkitMask = `url(${iconUrl}) no-repeat center / contain`;
         iconEl.style.mask = `url(${iconUrl}) no-repeat center / contain`;
       }
